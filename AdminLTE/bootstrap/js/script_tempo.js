@@ -30,17 +30,7 @@
 				}
 				
 				$('#box1').html("<div='content_box1'> A maior temperatura será de "+ maiorTemp +"ºC, no dia "+ diaMaiorTemp.getDate() +"/"+ (diaMaiorTemp.getMonth() + 1) +"</p> <p>E a menor temperatura será de "+ menorTemp +"ºC, no dia "+ diaMenorTemp.getDate() +"/"+ (diaMenorTemp.getMonth() + 1) +"</p>");
-
-				console.log("A maior temperatura será "+ maiorTemp +" C.");
-				console.log("No dia "+ diaMaiorTemp.getDate() + "/" + (diaMaiorTemp.getMonth() + 1));
-				console.log("A menor temperatura será "+ menorTemp +" C.");
-				console.log("No dia "+ diaMenorTemp.getDate() + "/" + (diaMenorTemp.getMonth() + 1));
-
-			});
-			 
-			 
+			});	 	 
         }
-
 	});
-
 });
